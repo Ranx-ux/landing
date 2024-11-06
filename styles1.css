@@ -54,6 +54,7 @@ body {
     object-fit: cover;
     border: 4px solid #69c2b0; /* Warna hijau neon */
     animation: zoomIn 1s ease-out;
+    
   }
 
 .hamburger {
@@ -227,10 +228,15 @@ body {
         padding: 10px;
     }
 
-    .welcome-text h1 {
-        font-size: 2em;
+    .welcome-text  {
+        font-size: 1em;
+        position: relative;
+        right: -49%;
     }
-
+    .profile{
+       transform: translate(60%);
+    }
+    
     .container {
         grid-template-columns: 1fr 1fr;
     }
